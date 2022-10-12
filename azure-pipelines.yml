@@ -142,7 +142,7 @@ variables:
      #   overrideParameters: '-name $(loadTestResource) -location "$(location)"'
      #   deploymentMode: 'Incremental'    
     
-    - task: AzureLoadTest@1
+     task: AzureLoadTest@1
       inputs:
         azureSubscription: $(serviceConnection)
         loadTestConfigFile: 'SampleApp.yaml'
