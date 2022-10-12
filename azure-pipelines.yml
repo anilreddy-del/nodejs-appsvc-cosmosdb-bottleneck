@@ -124,8 +124,8 @@ variables:
   jobs:
 #  - job: LoadTest
  #   displayName: Load Test
-    pool:
-      vmImage: ubuntu-latest
+  #  pool:
+  #    vmImage: ubuntu-latest
     steps:
     
   #  - task: AzureResourceManagerTemplateDeployment@3
