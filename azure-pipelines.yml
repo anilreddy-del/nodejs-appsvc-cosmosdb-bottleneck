@@ -157,4 +157,4 @@ variables:
         #   ]
           
    # - publish: $(System.DefaultWorkingDirectory)/loadTest
-    -  artifact: results
+  #  -  artifact: results
