@@ -117,10 +117,10 @@ variables:
     #    ScriptType: 'Inline Script'
    #     InlineScript: 'npm install'
 
-- stage: LoadTest
-  displayName: Load Test
-  dependsOn: Deploy
-  condition: succeeded()
+# - stage: LoadTest
+#   displayName: Load Test
+#  dependsOn: Deploy
+#  condition: succeeded()
   jobs:
   - job: LoadTest
     displayName: Load Test
