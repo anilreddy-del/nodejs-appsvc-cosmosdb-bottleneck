@@ -126,7 +126,7 @@ variables:
  #   displayName: Load Test
   #  pool:
   #    vmImage: ubuntu-latest
-    steps:
+ #   steps:
     
   #  - task: AzureResourceManagerTemplateDeployment@3
   #    inputs:
