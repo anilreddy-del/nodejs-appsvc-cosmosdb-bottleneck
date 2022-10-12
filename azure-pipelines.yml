@@ -122,8 +122,8 @@ variables:
 #  dependsOn: Deploy
 #  condition: succeeded()
   jobs:
-  - job: LoadTest
-    displayName: Load Test
+#  - job: LoadTest
+ #   displayName: Load Test
     pool:
       vmImage: ubuntu-latest
     steps:
