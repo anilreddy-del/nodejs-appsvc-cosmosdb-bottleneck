@@ -1,5 +1,5 @@
 version: v0.1
-testName: Get_qsignify-qd0-staging.azurewebsites.net
+testName: qsignify-qa
 testPlan: SampleApp.jmx
 description: 'SampleApp Test Run'
 engineInstances: 1
