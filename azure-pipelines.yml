@@ -5,8 +5,7 @@
 
 trigger:
 - main
-
- pool: ConfigitPool
+pool: ConfigitPool
 
 variables:
 #  webAppName: 'qsignify-qd0'
