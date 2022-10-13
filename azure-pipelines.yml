@@ -15,7 +15,9 @@ variables:
   loadTestResourceGroup: 'Daily-deployment-Test'
   location: 'West Europe'
 
-
+jobs:
+  - job: LoadTest
+    pool: ConfigitPool
 # stages:
 # - stage: Build
 #  displayName: Build 
