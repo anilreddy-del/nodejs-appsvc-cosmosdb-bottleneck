@@ -1,5 +1,5 @@
 version: v0.1
-testName: qsignify-qa
-testPlan: SampleApp.jmx
+testName: Qsignify-qa-30uesrs
+testPlan: Quote_Qa_Load_Aggressive - Copy.jmx
 description: 'SampleApp Test Run'
 engineInstances: 1
