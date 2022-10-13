@@ -158,5 +158,5 @@ jobs:
         #     }
         #   ]
           
-            - publish: $(System.DefaultWorkingDirectory)/loadTest
+           # - publish: $(System.DefaultWorkingDirectory)/loadTest
               -  artifact: results
