@@ -144,8 +144,8 @@ jobs:
     
     steps:
      - task: AzureLoadTest@1
-     displayName: 'Start-test'
-      inputs:
+       displayName: 'Start-test'
+       inputs:
         azureSubscription: $(serviceConnection)
         loadTestConfigFile: 'SampleApp.yaml'
         resourceGroup: $(loadTestResourceGroup)
